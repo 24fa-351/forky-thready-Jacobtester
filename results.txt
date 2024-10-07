@@ -1,0 +1,89 @@
+jacob@Jacobs-MacBook-Air-91 forky-thready-Jacobtester % ./forky 10 1
+Main process (PID 38740) created Process 1 (PID 38741)
+Main process (PID 38740) created Process 2 (PID 38742)
+Process 1 (PID 38741) beginning
+Main process (PID 38740) created Process 3 (PID 38743)
+Process 2 (PID 38742) beginning
+Main process (PID 38740) created Process 4 (PID 38744)
+Process 3 (PID 38743) beginning
+Main process (PID 38740) created Process 5 (PID 38745)
+Process 4 (PID 38744) beginning
+Main process (PID 38740) created Process 6 (PID 38746)
+Process 5 (PID 38745) beginning
+Main process (PID 38740) created Process 7 (PID 38747)
+Process 6 (PID 38746) beginning
+Main process (PID 38740) created Process 8 (PID 38748)
+Process 7 (PID 38747) beginning
+Main process (PID 38740) created Process 9 (PID 38749)
+Process 8 (PID 38748) beginning
+Main process (PID 38740) created Process 10 (PID 38750)
+Process 9 (PID 38749) beginning
+Process 10 (PID 38750) beginning
+Process 4 (PID 38744) exiting after 1 seconds
+Process 5 (PID 38745) exiting after 1 seconds
+Process 10 (PID 38750) exiting after 2 seconds
+Process 8 (PID 38748) exiting after 3 seconds
+Process 9 (PID 38749) exiting after 3 seconds
+Process 2 (PID 38742) exiting after 6 seconds
+Process 3 (PID 38743) exiting after 6 seconds
+Process 1 (PID 38741) exiting after 7 seconds
+Process 6 (PID 38746) exiting after 8 seconds
+Process 7 (PID 38747) exiting after 8 seconds
+jacob@Jacobs-MacBook-Air-91 forky-thready-Jacobtester % ./forky 8 2 
+Process 1 (PID 38751) started Process 2 (PID 38752)
+Process 1 (PID 38752) beginning
+Process 1 (PID 38752) exiting after 8 seconds
+Process 2 (PID 38752) started Process 3 (PID 38753)
+Process 2 (PID 38753) beginning
+Process 2 (PID 38753) exiting after 2 seconds
+Process 3 (PID 38753) started Process 4 (PID 38754)
+Process 3 (PID 38754) beginning
+Process 3 (PID 38754) exiting after 2 seconds
+Process 4 (PID 38754) started Process 5 (PID 38755)
+Process 4 (PID 38755) beginning
+Process 4 (PID 38755) exiting after 3 seconds
+Process 5 (PID 38755) started Process 6 (PID 38756)
+Process 5 (PID 38756) beginning
+Process 5 (PID 38756) exiting after 3 seconds
+Process 6 (PID 38756) started Process 7 (PID 38757)
+Process 6 (PID 38757) beginning
+Process 6 (PID 38757) exiting after 1 seconds
+Process 7 (PID 38757) started Process 8 (PID 38758)
+Process 7 (PID 38758) beginning
+Process 7 (PID 38758) exiting after 1 seconds
+Process 8 (PID 38758) started Process 9 (PID 38759)
+Process 8 (PID 38759) beginning
+Process 8 (PID 38759) exiting after 7 seconds
+jacob@Jacobs-MacBook-Air-91 forky-thready-Jacobtester % ./forky 5 1
+Main process (PID 38771) created Process 1 (PID 38772)
+Process 1 (PID 38772) beginning
+Main process (PID 38771) created Process 2 (PID 38773)
+Main process (PID 38771) created Process 3 (PID 38774)
+Process 2 (PID 38773) beginning
+Main process (PID 38771) created Process 4 (PID 38775)
+Process 3 (PID 38774) beginning
+Main process (PID 38771) created Process 5 (PID 38776)
+Process 4 (PID 38775) beginning
+Process 5 (PID 38776) beginning
+Process 4 (PID 38775) exiting after 2 seconds
+Process 2 (PID 38773) exiting after 3 seconds
+Process 3 (PID 38774) exiting after 3 seconds
+Process 1 (PID 38772) exiting after 4 seconds
+Process 5 (PID 38776) exiting after 6 seconds
+jacob@Jacobs-MacBook-Air-91 forky-thready-Jacobtester % ./forky 5 2
+Process 1 (PID 38777) started Process 2 (PID 38778)
+Process 1 (PID 38778) beginning
+Process 1 (PID 38778) exiting after 8 seconds
+Process 2 (PID 38778) started Process 3 (PID 38781)
+Process 2 (PID 38781) beginning
+Process 2 (PID 38781) exiting after 2 seconds
+Process 3 (PID 38781) started Process 4 (PID 38782)
+Process 3 (PID 38782) beginning
+Process 3 (PID 38782) exiting after 2 seconds
+Process 4 (PID 38782) started Process 5 (PID 38783)
+Process 4 (PID 38783) beginning
+Process 4 (PID 38783) exiting after 3 seconds
+Process 5 (PID 38783) started Process 6 (PID 38784)
+Process 5 (PID 38784) beginning
+Process 5 (PID 38784) exiting after 3 seconds
+jacob@Jacobs-MacBook-Air-91 forky-thready-Jacobtester % 
